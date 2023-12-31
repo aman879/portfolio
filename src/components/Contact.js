@@ -1,4 +1,5 @@
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import { FaTwitterSquare } from "react-icons/fa"
 import { SiMinutemailer } from "react-icons/si";
 
 export default function Contact() {
@@ -11,25 +12,29 @@ export default function Contact() {
                 <div className='grid grid-rows-2 gap-[27px] py-5'>
                     <div className="grid grid-cols-2 gap-4">
                         <div>                        
-                            <span className="text-2xl font-bold flex items-center text-[#000000]"><FaGithub className="mr-2" size={30}/>GitHub</span>
+                            <span className="text-2xl font-bold flex items-center text-[#3fafc9]"><FaGithub className="mr-2" size={30}/>GitHub</span>
                             <a className="text-base font-semibold text-[#fefefe] inline border-b-2 border-yellow-50" href='https://github.com/aman879' target='_blank' rel='noreferrer'>aman879</a>
                         </div>
                         <div>                        
-                            <span className="text-2xl font-bold flex items-center text-[#000000]"><FaLinkedin className="mr-2" size={30}/>LinkedIn</span>
+                            <span className="text-2xl font-bold flex items-center text-[#3fafc9]"><FaLinkedin className="mr-2" size={30}/>LinkedIn</span>
                             <a className="text-base font-semibold text-[#fefefe] inline border-b-2 border-yellow-50" href='https://www.linkedin.com/in/aman-kumar-b3a293238/' target='_blank' rel='noreferrer'>Aman kumar</a>
                         </div>
                         <div>                        
-                            <span className="text-2xl font-bold flex items-center text-[#000000]"><SiMinutemailer className="mr-2" size={30}/>Email</span>
+                            <span className="text-2xl font-bold flex items-center text-[#3fafc9]"><FaTwitterSquare className="mr-2" size={30}/>Twitter</span>
+                            <a className="text-base font-semibold text-[#fefefe] inline border-b-2 border-yellow-50" href='https://twitter.com/a_man870' target='_blank' rel='noreferrer'>a_man870</a>
+                        </div>
+                        <div>                        
+                            <span className="text-2xl font-bold flex items-center text-[#3fafc9]"><SiMinutemailer className="mr-2" size={30}/>Email</span>
                             <a className="text-base font-semibold text-[#fefefe] inline border-b-2 border-yellow-50" href='mailto:aman9693kumar@gmail.com'>aman9693kumar@gmail.com</a>
                         </div>
                     </div>
-                    <div className='grid grid-rows-2'>
+                    <div className='grid grid-rows-2 text-gray-100'>
                         <div>
-                            <p className='text-xl font-semibold'>Phone Number</p>
+                            <p className='text-xl font-semibold text-[#000000]'>Phone Number</p>
                             <span>+918252136010</span>
                         </div>
                         <div className='mt-[-30px]'>
-                            <p className='text-xl font-semibold'>Address</p>
+                            <p className='text-xl font-semibold text-[#000000]'>Address</p>
                             <p>Hummad gali,</p>
                             <p>Nehru tola</p>
                             <p>Patna city 800009</p>
