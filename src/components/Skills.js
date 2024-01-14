@@ -10,7 +10,7 @@ export default function Skills() {
                     <p className="py-4">// These are the technologies I've worked with</p>
                 </div>
                 <div className="mt-5 grid md:grid-cols-3 grid-rows-3 gap-8">
-                    <div className="md:h-[40vh] md:w-[43vh] h-[35vh] w-[43vh] bg-gray-900 rounded-2xl shadow-md shadow-[#040c16]">
+                    <div className="md:h-[40vh] md:w-[43vh] h-[35vh] w-[43vh] pb-2 bg-gray-900 rounded-2xl shadow-md shadow-[#040c16]">
                         <div className="flex justify-center mt-8">
                             <p className="text-2xl">Frontend</p>
                         </div>
@@ -21,6 +21,7 @@ export default function Skills() {
                             <button className="link cursor-default">React</button>
                             <button className="link cursor-default ml-3">Next.js</button>
                             <button className="link cursor-default ml-4">web3.js</button>
+                            <button className="link cursor-default">ether.js</button>
                         </div>
                     </div>                    
                     <div className="md:h-[40vh] md:w-[43vh] h-[35vh] w-[43vh] bg-gray-900 rounded-2xl shadow-md shadow-[#040c16]">
@@ -42,7 +43,10 @@ export default function Skills() {
                             <button className="link cursor-default mr-3">Java</button>
                             <button className="link cursor-default">c</button>
                             <button className="link cursor-default ml-3">Solidity</button>
-                            <button className="link cursor-default ">Ethereum Blockchain</button>
+                            <button className="link cursor-default mr-3 ">Blockchain</button>
+                            <button className="link cursor-default">Truffle</button>
+                            <button className="link cursor-default mr-3">Hardat</button>
+                            <button className="link cursor-default">foundry</button>
                             <button className="link cursor-default ">Docker</button>
                         </div>
                     </div>                   
